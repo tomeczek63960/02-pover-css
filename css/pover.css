@@ -291,38 +291,6 @@ ul{
     /* display: none; */
 }
 
-.active-bars{
-    display: none;
-}
-.nav-active{
-    display: block;
-    position: fixed;
-    top:0;
-    left:0;
-    z-index: 10;
-    width:100vw;
-    height: 100%;
-    background-color: #fff;
-    text-align: center;
-    padding-top: 50px;
-    border:2px solid red;
-}
-.nav-active .active-bars{
-    display: block;
-    font-size: 30px;
-    position: absolute;
-    top:30px;
-    right:30px;
-}
-.nav-active a{
-    margin-top: 30px;
-    font-weight: bold;
-    display: block;
-}
-.nav-active a::after{
-    display: none;
-}
-
 
 
 .navbar-nav{
@@ -352,6 +320,39 @@ ul{
 .navbar-nav a:hover::after{
     background-color: #f6921e;
 }
+
+.active-bars{
+    display: none;
+}
+.nav-active{
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    width:100vw;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.nav-active .active-bars{
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top:30px;
+    right:30px;
+}
+.nav-active a{
+    margin-top: 30px;
+    font-weight: bold;
+    display: block;
+}
+.nav-active a::after{
+    display: none;
+}
+
+
 
 
 /* page hero 1................................................................................*/
@@ -445,6 +446,12 @@ ul{
 
 .form-field-wrapper{
     margin-top: 20px;
+}
+.error-wrapper{
+    font-size: 12.5px;
+    color:rgb(177, 0, 0);
+    padding-left: 10px;
+    line-height: 2;
 }
 .form-label{
     display: block;
