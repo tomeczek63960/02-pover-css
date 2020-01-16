@@ -497,7 +497,7 @@ body{
 
 .page-footer{
     margin-top: 60px;
-    padding:0px 0  120px;
+    padding:0px 0  60px;
     background-color: #000000;
 }
 .row:not(:first-child){
@@ -705,6 +705,7 @@ body{
     /* page .footer */
     .page-footer{
         margin-top: 210px;
+        padding:0px 0  120px;
     }
 
 }
