@@ -40,7 +40,7 @@ body{
 .page-logo{
     width: 180px;
     height: 40px;
-    background: url(../img/power-logo.svg) center center no-repeat;
+    background: url(../img/icons/power-logo.svg) center center no-repeat;
     background-size: contain;
 }
 .page-hero{
@@ -53,14 +53,14 @@ body{
 }
 .page-hero-1 .hero-bg-image-wrapper{
     display: none;
-    background: url(../img/hero-image.png) right center no-repeat;
+    background: url(../img/hero-bg.png) right center no-repeat;
     background-size: 350px 100%;
     left:0;
     width: 100%;
 }
 .page-hero-2 .hero-bg-image-wrapper{    
     display: none;
-    background: url(../img/dotted-watermark.svg)left top 85px no-repeat;
+    background: url(../img/icons/dotted-watermark.svg)left top 85px no-repeat;
     background-size: 110px 190px;
     width:350px;
     right:0;
@@ -137,6 +137,9 @@ body{
 .abonament-section .btn-group{
     margin-top: 30px;
 }
+.map-info .btn-group{
+    justify-content: flex-start;
+}
 
 .btn{
     margin-top: 20px;
@@ -201,40 +204,40 @@ body{
 }
 
 .icon-phone-orange{
-    background-image: url(../img/icon-phone-orange.svg) ;
+    background-image: url(../img/icons/icon-phone-orange.svg) ;
     padding-left: 30px;
 }
 .icon-laptop-white{
-    background-image: url(../img/icon-laptop-white.svg) ;
+    background-image: url(../img/icons/icon-laptop-white.svg) ;
     background-position: left 45px center;
     background-size: 23px 19px;
 }
 .icon-laptop-orange{
-    background-image: url(../img/icon-laptop-orange.svg);
+    background-image: url(../img/icons/icon-laptop-orange.svg);
     background-size: 23px 19px;
     padding-left: 30px;
 }
 .icon-fb-white{
     width: 20px;
     height: 20px;
-    background-image: url(../img/icon-fb-white.svg);
+    background-image: url(../img/icons/icon-fb-white.svg);
 }
 .icon-instagram-white{
     width: 20px;
     height: 20px;
-    background-image: url(../img/icon-instagram-white.svg);
+    background-image: url(../img/icons/icon-instagram-white.svg);
 }
 .icon-app-store{
     width:145px;
     height: 50px;
-    background-image: url(../img/app-store.svg);
+    background-image: url(../img/icons/app-store.svg);
     background-position: center center;
     text-indent: -99999px;
 }
 .icon-google-play{
     width:145px;
     height: 50px;
-    background-image: url(../img/google-play.svg);
+    background-image: url(../img/icons/google-play.svg);
     background-position: center center;
     text-indent: -99999px;
 }
@@ -529,8 +532,8 @@ body{
     margin-right: 15px;
 }
 
-
-@media screen and (min-width:550px){
+/* 550px */
+@media screen and (min-width:34.375em){
     /* utilities */
     .hero-title{
         font-size: 40px;
@@ -550,7 +553,8 @@ body{
 
 
 }
-@media screen and (min-width:600px){
+/* 600px */
+@media screen and (min-width:37.5em){
     /* page hero-2 */
     .page-hero-2 .text{
         margin-top: 50px;
@@ -584,8 +588,8 @@ body{
         margin-right: 25px;
     }
 }
-
-@media screen and (min-width:700px){
+/* 700px */
+@media screen and (min-width:43.75em){
     
     /* utilities */
     .abonament-section .text p{
@@ -642,7 +646,8 @@ body{
     }
 }
 
-@media screen and (min-width:900px){
+/* 900px */
+@media screen and (min-width:56.25em){
     /* utilities */
     .page-hero-2 .text{
         margin-top: 75px;
@@ -679,7 +684,8 @@ body{
     }
 }
 
-@media screen and (min-width:1000px){
+/* 1000px */
+@media screen and (min-width:56.25em){
     /* Page bar */
     .bars{
         display: none;
@@ -710,7 +716,8 @@ body{
 
 }
 
-@media screen and (min-width:1100px){
+/* 110px; */
+@media screen and (min-width:68.75em){
     .page-hero-2 .text{
         max-width:670px;
     }
@@ -723,7 +730,8 @@ body{
     }
 }
 
-@media screen and (min-width:1300px){
+/* 1300px; */
+@media screen and (min-width:81.25em){
     .page-hero-1 .hero-bg-image-wrapper{
         background-size: 610px 100%;
     }
